@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Example</title>
+</head>
+<body>
+
+    <h2>Flower Image</h2>
+  <h3> Arpita Prakash Rajigare- S5 Batch</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDy5IsQhXnQsoQ8Oiowj4u7v_A5oTR74SqAQ&s&width=2048" alt="Sample Image" width="300">
+
+</body>
+</html>
