@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+
+    <link rel="stylesheet" href="employee.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Employee Registration Form</h2>
+
+        <form>
+
+            <table>
+
+                <tr>
+                    <td>Employee Name:</td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+
+                <tr>
+                    <td>Email ID:</td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="Enter password"></td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="tel" placeholder="Enter mobile number"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td>Department:</td>
+                    <td>
+                        <select>
+                            <option>Select Department</option>
+                            <option>HR</option>
+                            <option>Marketing</option>
+                            <option>Finance</option>
+                            <option>IT</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Skills:</td>
+                    <td>
+                        <input type="checkbox"> HTML
+                        <input type="checkbox"> CSS
+                        <input type="checkbox"> JavaScript
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="4"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Upload Resume:</td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
