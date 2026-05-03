@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Time Table</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
+
+        .container{
+            width:90%;
+            max-width:1100px;
+            background:white;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align:center;
+            color:#003366;
+            margin-bottom:20px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            overflow:hidden;
+            border-radius:15px;
+        }
+
+        th{
+            background:#003366;
+            color:white;
+            padding:15px;
+        }
+
+        td{
+            text-align:center;
+            padding:15px;
+            transition:0.3s;
+        }
+
+        tr:nth-child(even){
+            background:#f2f9ff;
+        }
+
+        tr:hover td{
+            background:#d6f0ff;
+        }
+
+        .time{
+            background:#00b4d8;
+            color:white;
+            font-weight:bold;
+        }
+
+        .maths{
+            background:#caf0f8;
+        }
+
+        .physics{
+            background:#ade8f4;
+        }
+
+        .chemistry{
+            background:#90e0ef;
+        }
+
+        .english{
+            background:#48cae4;
+            color:white;
+        }
+
+        .evs{
+            background:#0077b6;
+            color:white;
+        }
+
+        .lunch{
+            background:#ffe066;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>College Time Table</h1>
+
+    <table>
+
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td class="maths">Maths</td>
+            <td class="physics">Physics</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="english">English</td>
+            <td class="evs">EVS</td>
+        </tr>
+
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td class="physics">Physics</td>
+            <td class="maths">Maths</td>
+            <td class="english">English</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="evs">EVS</td>
+        </tr>
+
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="english">English</td>
+            <td class="maths">Maths</td>
+            <td class="physics">Physics</td>
+            <td class="evs">EVS</td>
+        </tr>
+
+        <tr>
+            <td class="time">12:00 - 1:00</td>
+            <td class="english">English</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="physics">Physics</td>
+            <td class="maths">Maths</td>
+            <td class="evs">EVS</td>
+        </tr>
+
+        <tr>
+            <td class="time">1:00 - 2:00</td>
+            <td colspan="5" class="lunch">Lunch Break</td>
+        </tr>
+
+        <tr>
+            <td class="time">2:00 - 3:00</td>
+            <td class="evs">EVS</td>
+            <td class="physics">Physics</td>
+            <td class="maths">Maths</td>
+            <td class="english">English</td>
+            <td class="chemistry">Chemistry</td>
+        </tr>
+
+        <tr>
+            <td class="time">3:00 - 4:00</td>
+            <td class="maths">Maths</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="evs">EVS</td>
+            <td class="physics">Physics</td>
+            <td class="english">English</td>
+        </tr>
+
+        <tr>
+            <td class="time">4:00 - 5:00</td>
+            <td class="english">English</td>
+            <td class="evs">EVS</td>
+            <td class="physics">Physics</td>
+            <td class="chemistry">Chemistry</td>
+            <td class="maths">Maths</td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>
